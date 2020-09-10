@@ -1,0 +1,87 @@
+/* *********************************** */
+/* *** ESTILOS GENERALES *** */
+/* *********************************** */
+
+/* Fuentes propias */
+@font-face 
+{
+    font-family: "robotoregular";
+    font-weight: normal;
+    font-style: normal;
+    src:
+        url("../font/roboto-regular-webfont.woff2") format("woff2"),
+        url("../font/roboto-regular-webfont.woff") format("woff");
+
+}
+
+/* Fuente roboto mas bold de lo normal */
+@font-face 
+{
+    font-family: "Roboto-Black";
+
+    src: 
+        url("../font/Roboto-Black.woff2") format("woff2"),
+        url("../font/Roboto-Black.woff") format("woff"); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Mont-SemiBold";
+
+    src:
+        url("../font/mont-semibold.woff2") format("woff2"),
+        url("../font/mont-semibold.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+@font-face 
+{
+    font-family: "shrikhandregular";
+    font-weight: normal;
+    font-style: normal;
+    src:
+        local("shrikhandregular"),
+        url("../font/shrikhand-regular-webfont.woff2") format("woff2"),
+        url("../font/shrikhand-regular-webfont.woff") format("woff");
+
+}
+
+html 
+{
+    font-family: "robotoregular", sans-serif;
+    font-size: 16px;
+    background-color: #eeee;
+    color: black;
+}
+
+
+body 
+{
+
+    /* margenes 20 moviles y 40 en tablet y desktop (1366x768) */
+    /* padding: 1.25rem 1.25rem 1.25rem 1.25rem; */
+    /* height: 100vh; */
+
+}
+
+
+/* Cambio de estado en los links de arriba */
+a
+{
+    color: white;
+}
+
+a:hover
+{
+    color: black;
+}
+
+/* ******************************** */
+/* Colores */
+/* ******************************** */
+

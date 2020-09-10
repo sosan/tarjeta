@@ -1,0 +1,425 @@
+/* *********************************** */
+/* *** Estilos SOLO para index.html *** */
+/* *********************************** */
+
+
+.zonaImagenBackground
+{
+    background-image: url("../img/desktop/blank.png");
+    background-repeat: no-repeat;
+
+    background-position: right, left;
+
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    /* position: absolute; */
+    z-index: -1;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+}
+
+
+
+/* .contenidoArriba
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+} */
+
+.zonaNavegacion
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+    
+}
+
+.contenidoCentrado {
+    flex-grow: 2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.paddingLateral
+{
+    padding-left: 1.25rem;
+    padding-right: 2rem;
+
+}
+
+.logoEmpresa {
+    width: 75px;
+    height: 50px;
+    border: 1px solid wheat;
+
+}
+
+.textoNavegacion
+{
+    flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 50%; */
+    flex-basis: 50%;
+    /* background-color: red; */
+
+}
+
+.textoImagenBackground {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 95%;
+
+
+}
+
+.tituloEncabezado
+{
+    font-family: "Roboto-Black";
+
+}
+
+
+
+
+
+
+
+
+/* ZONA MEDIA */
+
+.contenidoCentralCentrado
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* background-color: red; */
+
+}
+
+.contenidoTamanoFijo
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+    
+}
+
+.margentop60
+{
+    margin-top: 60px;
+
+}
+
+.margentop30
+{
+    margin-top: 30px;
+}
+
+.ancho700
+{
+    width: 700px;
+
+}
+
+.zonaIzquierda
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    margin-right: 20px;
+
+}
+.zonaDerecha 
+{
+
+
+}
+
+
+.resetfigure
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.imagenDecorativaGrande
+{
+    width: 250px;
+    height: 200px;
+
+}
+
+
+.reseth
+{
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    
+}
+
+.tituloNombre
+{
+    font-weight: 900;
+    font-size: 2rem;
+    font-family: "Roboto-Black";
+}
+
+.row
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 20px;
+
+}
+
+.explicacion
+{
+    font-size: 0.85rem;
+    font-weight: normal;
+    width: 70%;
+    height: 100%;
+}
+
+.textoBold
+{
+    font-weight: bold;
+}
+
+.imagenDecorativaPequena
+{
+    width: 240px;
+    height: 140px;
+    margin-left: 20px;
+}
+
+.imagenDecorativaRectanguloGrande
+{
+    width: 200px;
+    height: 250px;
+}
+
+.explicacionSegundaFila
+{
+    font-size: 0.85rem;
+    font-weight: normal;
+    width: 300px;
+    height: 100%;
+}
+
+.imagenDecorativaPequenaSegundaFila
+{
+    width: 140px;
+    height: 140px;
+    margin-left: 20px;
+}
+
+
+/* Zona ABAJO */
+
+
+
+.zonaImagenBackgroundFondo
+{
+    background-image: url("../img/desktop/blank.png");
+    background-repeat: no-repeat;
+
+    background-position: right, left;
+
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    margin-top: 150px;
+    z-index: -1;
+
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.contenidoCentradoSeparado
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.textoPregunta
+{
+    font-family: "Roboto-Black";
+    font-size: 1.65rem;
+
+}
+
+
+.boton
+{
+    padding: 20px;
+    background-color: gray;
+    color: white;
+
+}
+
+
+/* ZONA FOOTER */
+.contactos
+{
+    background-color: #383838;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    z-index: -1;
+    width: 100%;
+    height: 200px;
+    color: whitesmoke;
+
+}
+
+.zonaAbajoIzquierda
+{
+    /* background-color: blue; */
+    height: 100%;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* width: 100%; */
+}
+
+.zonaAbajoCentro
+{
+/* background-color: violet; */
+    height: 100%;
+    flex-grow: 1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.zonaAbajoDerecha
+{
+    /* background-color: yellow; */
+    height: 100%;
+    flex-grow: 1;
+    /* flex-basis: 50%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.cajaInformacion
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.cajaInformacionSpaceEvenly
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cajaTelefono
+{
+    /* width: 50%; */
+}
+
+.cajaEmail
+{
+    /* width: 60%; */
+}
+
+.cajaRedesSociales
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 65%;
+    
+
+}
+
+.marginTop20
+{
+    margin-top: 20px;
+}
+
+
+.cajaEnviarEmail
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+
+}
+
+
+.colorSvg
+{
+    fill:gray;
+}
+
+
+.resetul
+{
+
+    display: block;
+    list-style-type: none;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
