@@ -39,17 +39,6 @@
 
 
 
-@font-face 
-{
-    font-family: "shrikhandregular";
-    font-weight: normal;
-    font-style: normal;
-    src:
-        local("shrikhandregular"),
-        url("../font/shrikhand-regular-webfont.woff2") format("woff2"),
-        url("../font/shrikhand-regular-webfont.woff") format("woff");
-
-}
 
 html 
 {
@@ -66,9 +55,16 @@ body
 
     /* margenes 20 moviles y 40 en tablet y desktop (1366x768) */
     /* padding: 1.25rem 1.25rem 1.25rem 1.25rem; */
-    /* height: 100vh; */
+    height: 100vh;
 
-    background-color: aqua;
+    /* background-color: aqua; */
 
+    /* Cambiamos el color por un color degradado entre 2 colores . Explicacion Viernes */
+    background-image: linear-gradient(to left bottom, #e12d07, #cd6e00, #b19700, #91b732, #6ed176);
+
+    /* Centrado en el medio */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
