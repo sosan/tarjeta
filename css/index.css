@@ -19,7 +19,7 @@
     border-radius: 10px;
     box-sizing: border-box;
     /* box-sizing: padding-box; */
-    border: 5px solid gray;
+    border: 5px solid brown;
     width: 800px;
     padding: 20px;
 
@@ -100,10 +100,12 @@
 .cuadrado
 {
     border-radius: 20px;
-    background-color: blue;
+    /* background-color: brown; */
+    background-color: rgba(222, 222, blue, alpha);
     width: 250px;
     height: 200px;
     position: absolute;
     left: -5%;
 
+    border: 1px solid brown;
 }
